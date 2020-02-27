@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js-facts</title>
+</head>
+<style>
+    .btn-div {
+        margin-left: 100px;
+        margin-top: 200px;
+        float: left;
+    }
+
+    .btn-div-nxt {
+        margin-left: 200px;
+        margin-top: 200px;
+        float: left;
+    }
+
+    .btn {
+        float: left;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 30px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-size: x-large;
+    }
+
+    .plaintxt {
+        float: left;
+        height: 100px;
+        width: 250px;
+        text-align: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding:10 px;
+        margin-top: 10px;
+        font-size: large;
+        text-decoration: solid;
+    }
+
+    .pointing {
+        margin-top: 30px;
+        float: left;
+        height: 50px;
+        width: 80px;
+        margin-left: 20px;
+    }
+
+    .img-src {
+        position: relative;
+        height: 50px;
+        width: 50px;
+        animation: movingPointer 5s 2;
+    }
+
+    @keyframes movingPointer {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+
+        ;
+
+        50% {
+            left: 50px;
+            top: 0px;
+        }
+
+        ;
+
+        100% {
+            left: 0px;
+            top: 0px;
+        }
+    }
+    .infodiv{
+        height:500px;
+        width:500px;
+        float:left;
+        margin-top: 50px;
+        position: relative  ;
+        border-style: solid ;
+        border-width: 5px;
+        border-color: black;
+        visibility: hidden;
+    }
+    .heading-info{
+        background-color: cyan;
+        height:120px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: xx-large;
+        padding: 20px;
+    }
+    .desc-info{
+        height: 300px;
+        background-color: lightgray;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: x-large;
+        padding: 20px;
+    }
+
+</style>
+
+<body>
+    <div class="btn-div">
+        <button class="btn">Click</button>
+        <div class="pointing"><img class= "img-src" src="pointing.png" alt="arrow"> </div>
+        <div class="plaintxt">Click to learn about <span style="font-size: xx-large;"> Javascript </span> </div>
+    </div>
+    <div class="infodiv">
+        <div class="heading-info"></div>
+        <div class="desc-info"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
