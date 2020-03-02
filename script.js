@@ -1,11 +1,11 @@
 var factsCollection=[
     {
         heading:"Difference between premitive and reference datatypes?",
-        description:"premitive - value is copied at different locations and reference- value is in pointed to the same memory location " 
+        description:"premitive - value is copied at different locations and reference- values are pointed to the same memory location " 
     },
     {
         heading:"What's a creation phase?",
-        description:"When you execte in the global scope or when u call a function  , the function scope now goes through creation phase and then initializations and executions takes place. "
+        description:"When you execute in the global scope or when u call a function  , the function scope now goes through creation phase and then initializations and later executions takes place. "
     },
     {
         heading:"What's type coercion?",
@@ -13,7 +13,7 @@ var factsCollection=[
     },
     {
         heading:"What's a template literal?",
-        description:"template literals are string literals that allow some embedded expressions"
+        description:"template literals are string literals that allow some embedded expressions eg:`Hi ${this.name}` "
     },
     {
         heading:"How is array an object??",
@@ -29,11 +29,11 @@ var factsCollection=[
     },
     {
         heading:"HTML collection vs nodelist",
-        description:"Nodelist is list that can be directly used for iteration HTML collection is also a list but needs to be converted into an array and then can be used for iteration"
+        description:"Nodelist is a list that can be directly used for iteration while HTML collection needs to be converted into an array and then can be used for iteration"
     },
     {
         heading:"when to use == or ===?",
-        description:"== will not check type but checks only value by doing type coertion === will check both type and value"
+        description:"== will not check type but checks only value by doing type coertion === will check both type and value. eg: '2'==2 //true , '2'===2 //false "
     },
     {
         heading:"What is event looping?",

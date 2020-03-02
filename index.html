@@ -43,6 +43,7 @@
         margin-top: 10px;
         font-size: large;
         text-decoration: solid;
+		text-align: center;
     }
 
     .pointing {
@@ -57,27 +58,20 @@
         position: relative;
         height: 50px;
         width: 50px;
-        animation: movingPointer 5s 2;
+        animation: movingPointer 2s infinite;
     }
 
     @keyframes movingPointer {
         0% {
             left: 0px;
-            top: 0px;
         }
-
-        ;
 
         50% {
             left: 50px;
-            top: 0px;
         }
-
-        ;
 
         100% {
             left: 0px;
-            top: 0px;
         }
     }
     .infodiv{
@@ -112,7 +106,7 @@
 <body>
     <div class="btn-div">
         <button class="btn">Click</button>
-        <div class="pointing"><img class= "img-src" src="pointing.png" alt="arrow"> </div>
+        <div class="pointing"><img class="img-src" src="pointing.png" alt="arrow"> </div>
         <div class="plaintxt">Click to learn about <span style="font-size: xx-large;"> Javascript </span> </div>
     </div>
     <div class="infodiv">
